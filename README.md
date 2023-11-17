@@ -10,12 +10,16 @@
 An expression parser and evaluator for infix mathematical expressions. Can be used to parse expressions into expression trees. It can then evaluate these trees. It uses the Shunting Yard Algorithm for converting a vector of tokens (obtained by the lexer) to construct the tree.
 
 ## Building the REPL
+
+The REPL can be built using the make file's repl target.
+
 ```console
 > make repl
-> repl.exe
 ```
 
-
+<p align="center">
+    <img src="./imgs/repl.png">
+</p>
 
 
 ## Usage
