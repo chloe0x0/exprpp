@@ -5,7 +5,7 @@ FILES = token.cxx lexer.cxx expr_tree.cxx parser.cxx
 
 # Builds the REPL executable
 repl:
-	$(CC) $(CFLAGS) -o expr repl.cxx $(FILES)
+	$(CC) $(CFLAGS) -o repl repl.cxx $(FILES)
 
 clean:
 	rm *.exe
