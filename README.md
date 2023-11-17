@@ -21,7 +21,7 @@ The REPL can be built using the makefile's repl target.
     <img src="./imgs/repl.png">
 </p>
 
-the REPL is exited nicely by simply enterint 'q' as the input.
+the REPL is exited nicely by simply entering 'q' as the input.
 
 ## Usage
 
