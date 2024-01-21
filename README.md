@@ -201,7 +201,7 @@ constant subtrees (subtrees without variable nodes) are precomputed during simpl
 ```
 
 ```cpp
-Expr_Tree* tree(Parse("cos(x + 2)/(1 + 2 + 3 + 4 + (10/2))"));
+Expr_Tree* tree = Parse("cos(x + 2)/(1 + 2 + 3 + 4 + (10/2))");
 Expr_Tree* simplified = tree->simplify();
 std::cout << simplified->latex(0);
 ```
